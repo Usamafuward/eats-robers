@@ -1,0 +1,49 @@
+.userlist{
+    background-color: #cdcac8;
+    height: 40px;
+    display: flex;
+    margin-top: 5px;
+   align-items: center;
+    
+    .names {
+        margin-left: 10px;
+        width:15%;
+        
+    }
+    .mails{
+        width: 15%;    
+        }
+    .nums {
+        width: 15%;
+        
+    }
+    .addresses {
+        width: 40%;
+        
+    }
+    .edits{
+        display: flex;
+        justify-content: center;
+        width: 15%;
+        button{
+            padding: 8px 16px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+        .update{
+            background-color: rgb(4, 86, 4);
+            color: white;
+        }
+        .delete{
+            background-color: rgb(183, 3, 3);
+            color: white;
+        }
+    }
+   
+
+    div{
+        color:#603814;
+    
+    }
+}

@@ -1,0 +1,70 @@
+.admin{
+
+    .a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .a a{
+        padding: 8px 16px;
+         text-decoration: none;
+         text-transform:uppercase;
+         font-weight: 600;
+         color: rgb(39, 38, 38);
+
+         &:hover{
+            text-decoration: underline;
+         }
+     }
+    .adminheader{
+        background-color: #0B666A;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+
+        .name {
+            
+            width:20% ;
+            
+        }
+        .num {
+            
+            width: 15%;
+            
+        }
+        .address {
+            
+            width: 50%;
+            
+        }
+        .edit{
+            
+            width: 15%;
+            
+            
+        }
+        div{
+
+            color:white
+        }
+    }
+    .add{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+     }
+
+    .addbutton{
+        margin: 5px;
+        padding: 8px 16px;
+         text-decoration: none;
+         cursor: pointer;
+         background-color:#0B666A;
+         color: white;
+         border-radius: 5px;
+         border: none;
+         
+     }
+}

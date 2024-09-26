@@ -1,0 +1,44 @@
+.foodlist{
+    background-color: #cdcac8;
+    height: 40px;
+    display: flex;
+    margin-top: 5px;
+   align-items: center;
+    
+    .name {
+        margin-left: 10px;
+        width:20% ;
+        
+    }
+    .type {
+        width: 15%;
+        
+    }
+    .price {
+        width: 50%;
+        
+    }
+    .edit{
+        display: flex;
+        justify-content: center;
+        width: 15%;
+        button{
+            padding: 8px 16px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+        .update{
+            background-color: rgb(4, 86, 4);
+            color: white;
+        }
+        .delete{
+            background-color: rgb(183, 3, 3);
+            color: white;
+        }
+    }
+    div{
+        color:#603814;
+    
+    }
+}
